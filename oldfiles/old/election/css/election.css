@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+.question
+{
+	margin:auto;
+	border:solid #666 1px;
+	padding:10px;
+	width:800px;
+}
+
+.candidate
+{
+	padding:10px;
+	margin:10px;
+	display:inline-block;
+}
+
+.button
+{
+	-moz-border-radius:10px;
+	border-radius:10px;
+	background:#666;
+	color:#FFF;
+	max-width:120px;
+	height:auto;
+	padding:2px;
+	font-size:14px;
+}
+
+.button:hover
+{
+	cursor:pointer;
+	background:#000;
+}

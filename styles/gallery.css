@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+.Gallery{
+	width:202px;
+	height:152px;
+	-moz-box-shadow: 0px 0px 18px #000;
+	-webkit-box-shadow: 0px 0px 40px #000;
+}
+#Gallery1{
+	position:relative;
+	left:105px;
+	top:32px;
+}
+
+#Gallery2{
+	position:relative;
+	left:450px;
+	top:-124px;
+}
+
+#Gallery3{
+	position:relative;
+	left:105px;
+	top:-40px;
+}
+#Gallery4{
+	position:relative;
+	left:450px;
+	top:-195px;
+}
+#Gallery5{
+	position:relative;
+	left:105px;
+	top:-110px;
+}
+#Gallery6{
+	position:relative;
+	left:454px;
+	top:-262px;
+}

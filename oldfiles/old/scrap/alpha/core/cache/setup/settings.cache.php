@@ -1,0 +1,18 @@
+<?php if(time() > 1285170156){return array();} return array (
+  'database_type' => 'mysql',
+  'database_server' => 'localhost',
+  'dbase' => 'modx',
+  'database_user' => '',
+  'database_password' => '',
+  'database_connection_charset' => NULL,
+  'database_charset' => NULL,
+  'table_prefix' => 'modx_',
+  'https_port' => '443',
+  'http_host' => 'gymkhana.iitb.ac.in',
+  'site_sessionname' => 'SN4c9a20643e090',
+  'cache_disabled' => 'true',
+  'inplace' => 0,
+  'unpacked' => '1',
+  'language' => 'en',
+  'installmode' => 0,
+);

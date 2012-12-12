@@ -1,0 +1,209 @@
+<center><H1>HOSTEL 6 ELECTIONS</H1></center>
+<style>
+.img{
+	width:150px;
+	height:150px;
+}
+
+</style>
+<div id="frame1">
+	<form action="./vote.php" method="post">
+<div id="MAINT">
+<center><h2>Maintainance Secretaries (select 3 of 4)</h2>
+<table >
+	<tr><td>Krishna</td><td>Shubham</td><td>Mukesh</td><td>Raghav</td></tr>
+	
+<tr>
+<td>
+<img src="images/maint_1.jpg" class="img"></img><br><input type="checkbox" name="maint_1" onclick="uncheck()"></input>
+</td>
+
+<td>
+<img src="images/maint_2.jpg" class="img"></img><br><input type="checkbox" name="maint_2" onclick="uncheck()"></input>
+</td>
+
+<td>
+<img src="images/maint_3.jpg" class="img"></img><br><input type="checkbox" name="maint_3" onclick="uncheck()"></input>
+</td>
+
+<td>
+<img src="images/maint_4.jpg" class="img"></img><br><input type="checkbox" name="maint_4" onclick="uncheck()"></input>
+</td>
+</tr>
+</table>
+</center>
+</div>
+
+
+
+
+
+<div id="sport">
+<center><h2>Sports Secretary</h2>
+<table >
+	<tr><td>Jaydeep</td><td>Mohit</td><td>Piyush</td></tr>
+<tr>
+<td>
+<img src="images/sport_1.jpg" class="img"></img><br><input type="checkbox" name="sport_1"></input>
+</td>
+
+<td>
+<img src="images/sport_2.jpg" class="img"></img><br><input type="checkbox" name="sport_2"></input>
+</td>
+
+<td>
+<img src="images/sport_3.jpg" class="img"></img><br><input type="checkbox" name="sport_3"></input>
+</td>
+
+</tr>
+</table>
+</center>
+</div>
+
+
+
+
+<div id="mess">
+<center><h2>Mess Secretary</h2>
+<table >
+<tr><td>Nitin Kumar</td></tr>
+<tr>
+<td>
+<img src="images/mess_1.jpg" class="img"></img><br><input type="radio" name="mess_1" value=1>yes<input type="radio" name="mess_1" value=2>no<input type="radio" name="mess_1" value=3 checked>neutral</input>
+</td>
+
+</tr>
+</table>
+</center>
+</div>
+
+
+<div id="soc">
+<center><h2>Social Secretaries</h2>
+<table >
+<tr><td>Animesh</td><td>Rohit Garg</td></tr>
+<tr>
+<td>
+<img src="images/soc_1.jpg" class="img"></img><br><input type="checkbox" name="soc_1"></input>
+</td>
+
+<td>
+<img src="images/soc_2.jpg" class="img"></img><br><input type="checkbox" name="soc_2"></input>
+</td>
+
+</tr>
+</table>
+</center>
+</div>
+
+
+
+<div id="debate">
+<center><h2>Debating Secretaries</h2>
+<table >
+	<tr><td>Arpit</td></tr>
+<tr>
+<td>
+<img src="images/debate_1.jpg" class="img"></img><br><input type="radio" name="debate_1" value=1>yes<input type="radio" name="debate_1" value=2>no<input type="radio" name="debate_1" value=3  checked>neutral</input>
+</td>
+
+</tr>
+</table>
+</center>
+</div>
+
+
+
+
+<div id="music">
+<center><h2>Music Secretary</h2>
+<table >
+	<tr><td>Aakash Singhal</td></tr>
+<tr>
+<td>
+<img src="images/music_1.jpg" class="img"></img><br><input type="radio" name="music_1" value=1>yes<input type="radio" name="music_1" value=2>no<input type="radio" name="music_1" value=3  checked>neutral</input>
+</td>
+
+</tr>
+</table>
+</center>
+</div>
+
+
+
+
+
+<div id="dram">
+<center><h2>Dramatic Secretary</h2>
+<table >
+<tr>
+	<tr><td>Amit Agarwal</td></tr>
+<td>
+<img src="images/dram_1.jpg" class="img"></img><br><input type="radio" name="dram_1" value=1>yes<input type="radio" name="dram_1" value=2>no<input type="radio" name="dram_1" value=3  checked>neutral</input>
+</td>
+
+</tr>
+</table>
+</center>
+</div>
+
+
+
+
+<div id="dance">
+<center><h2>Dance Secretary</h2>
+<table >
+	<tr><td>Mohana Vamsi</td></tr>
+<tr>
+<td>
+<img src="images/dance_1.jpg" class="img"></img><br><input type="radio" name="dance_1" value=1>yes<input type="radio" name="dance_1" value=2>no<input type="radio" name="dance_1" value=3 checked>neutral</input>
+</td>
+
+</tr>
+</table>
+</center>
+</div>
+
+
+
+<div id="dance">
+<center>
+	<table>
+		<tr>
+	<td>ldap</td><td><input name="username"></td>
+		</tr>
+		<tr>
+	<td>password</td><td><input type='password' name="password"></td>
+		</tr>
+		<tr>
+	<td><input type="submit" value="submit"></td>
+		</tr>
+		</table>
+</center>
+</div>
+
+
+</form>
+</div>
+
+
+
+
+
+
+<script>
+
+function uncheck(){
+	if(document.forms[0].elements[0].checked && document.forms[0].elements[1].checked && document.forms[0].elements[2].checked && document.forms[0].elements[3].checked){
+		
+		document.forms[0].elements[0].checked=false;
+		document.forms[0].elements[1].checked=false;
+		document.forms[0].elements[2].checked=false;
+		document.forms[0].elements[3].checked=false;
+	}
+	
+	
+}
+
+
+</script>
